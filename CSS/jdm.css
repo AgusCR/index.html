@@ -1,0 +1,79 @@
+header{
+    
+    
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;   
+     
+
+}
+
+
+.logo{
+    
+    display: flex;
+    align-items: center;
+    text-decoration-line: none;
+}
+
+
+.logo img{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-empresa{
+    font-weight: 600;
+    text-shadow:4px 4px 4px rgb(87, 1, 1);
+    color: white;
+}
+
+nav a{
+    text-shadow:4px 4px 4px rgb(87, 1, 1);
+    color: white;
+    font-weight:500;
+    padding-right: 10px;
+    text-decoration-line:overl;
+}
+
+a:hover{
+    color: rgb(119, 0, 0);
+}
+
+.contenedor{
+    margin: 10px;
+    padding: 10px;
+    width: 800px;
+    display:inline-flex;
+}
+
+.introduccion{
+    margin-right: 100px;
+}
+
+.indice{
+    margin: 10px;
+    border: 2px solid gray;
+    padding: 20px;
+    
+}
+.Auto1{
+    display: flex;
+    width:800px;
+}
+
+body{
+
+    color: rgb(173, 163, 163);
+    background-image: url("/Imagenes/night-fondo2.jpg");
+    background-size:cover;
+    
+    
+}
+
+
+
+

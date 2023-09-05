@@ -1,0 +1,84 @@
+body{
+    color: antiquewhite;
+    margin: 0;
+    background-image: url(/Imagenes/azul_oscuro2.jpg);
+}
+a{
+
+    text-decoration: none;
+    color: antiquewhite;
+}
+.logo-empresa{
+    color: black;
+}
+header{
+    
+    background-color: rgb(66, 23, 66);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    min-height: 70px;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    color: black;
+    font-weight: 700;
+    padding-right: 10px;
+    text-decoration-line:overl;
+ }
+
+ nav a:hover{
+    color:white;
+    
+
+ }
+
+ @media (max-width:700px) {
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+    
+        padding: 10px 0 px;
+    }
+ }
+
+.saludo{
+    
+    font-size: 16px;
+    margin: 0;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 2em;
+}
+
+
+.ae86{
+    width:800px;
+    font-family:initial;
+    display: flex; /* con la propiedad display cambiambos la disposicion del elemento*/
+    justify-content: baseline;
+
+    }
+
+div main{
+
+        padding-left: 20px;
+}

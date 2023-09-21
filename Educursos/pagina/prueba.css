@@ -1,0 +1,165 @@
+.contenedor div{
+    padding: 10px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.div1{
+background-color: cadetblue;
+    
+}
+
+.div2{
+    background-color:coral;
+  
+    margin-bottom: 10px ;
+}
+
+.contenedor2{
+    font-size:15px ;
+
+}
+
+.over1{
+    width:200px ;
+    height: 50px;
+    margin: 20px;
+    margin-bottom:50px;
+    border: 5px solid black;
+    overflow: visible; /* visible, scroll, hidden o auto (en scroll aparecen las barras de desplazamiento, 
+                                    en cambio en auto aparecen solo si el contenido supera el contenedor */
+}
+.over2{
+    width:200px ;
+    margin: 20px;
+    height: 50px;
+      
+    border: 5px solid black;
+    overflow: hidden; /* visible, scroll, hidden o auto (en scroll aparecen las barras de desplazamiento, 
+                                    en cambio en auto aparecen solo si el contenido supera el contenedor */
+}
+.over3{
+    margin: 20px;
+    width: 400px;
+    height: 40px;
+    border: 3px solid black;
+    overflow: auto; /* visible, scroll, hidden o auto (en scroll aparecen las barras de desplazamiento 
+                                (además aparecen las de movimiento horizontal),
+                                en cambio en auto aparecen solo si el contenido supera el contenedor  */
+}
+
+
+.contenedor3 div{
+    padding: 10px;
+    font-size: 30px;
+    margin: 10px;    
+    width:400px;
+    
+}
+.flo1{
+    margin-top: 20px;
+    background-color: tomato;
+    float:right;
+   
+}
+.flo2{
+    
+    background-color: aqua;
+        
+}
+
+.padre{
+    border: 5px solid black; /* se pueden agregar en los valres de solid, dashed, dotted*/
+    background-color: rgb(82, 60, 19);
+    display: inline-block;
+    width:600px;
+    height: 400px;
+    position: relative;
+    font-size: 30px;
+    margin: 20px;  
+    border-radius: 20xp;
+    border-radius: 50%;
+    box-shadow: inset 12px 10px 30px 20px red; /*los valores son: (posicion en x, poscion en y, difuminado, espaciado y color. 
+                                            Si queremos que la sombra sea interion agregamos el inset delante de todo.*/
+}
+.hijo{
+    border: 5px solid black;
+    display:inline;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    background-color: brown;
+    
+}
+
+.padre2{
+    background-color: rgb(248, 162, 50);
+    display: block;
+    position: static ; /* en este ejemplo podemos notar que si usamos "relative" los dos div que se encuantran a los costados quedan en su lugar*/
+     top: 140px;            /* pero si usamos "absolute" y le damos un valores en; top, left, right, or bottom, los dos divs se mueven.  */
+     left: 140px;
+    font-size: 30px;
+    width:200px;
+    margin: 20px;  
+}
+
+.padre3{
+    border: 5px solid brown;
+    background-color: rgb(124, 107, 7);
+    display: block;
+    font-size: 30px;
+    width:600px;
+    height: 400px;
+    margin: 20px;  
+    
+}
+.hijo3{
+    background-color: blue;
+    display: inline-block;
+    border: 5px solid black;
+    padding:10px;
+    position:static   ; /* con "sticky" el elemneto no puede superar al contenedor, por ende si supera las medidas se acercara al borde.
+                        se usa para que el menu te siga "header" */
+    
+    
+}
+
+.cabezera {
+    display: inline-flex;
+    position: sticky;
+    top:0px;
+}
+
+.imgind{
+    margin: 10px;
+
+}
+
+    .g{
+        position: static;
+    }
+.ok1{
+
+        width: 200px;
+        height: 50px;
+        z-index:3;
+        left: 100px;
+        background-color: brown;
+    }
+    .ok2{
+        
+        width: 200px;
+        height: 50px;
+        left: 10px;
+        z-index:1; /* z-index indica el orden de superoposicion, en caso de que los elemnetos tengan los mismo valores de ubicacion. 
+                            el z-index con el valor más alto aparecerá primero. */
+        background-color: rgb(56, 35, 80);
+    }
+    .ok3{
+        width: 200px;
+        height: 50px;
+       
+        z-index:2;
+        left: 60px;
+        background-color: rgb(13, 160, 50);
+    }

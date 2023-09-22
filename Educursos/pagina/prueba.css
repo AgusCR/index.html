@@ -1,3 +1,9 @@
+body{
+    font-family: 'Skranji', cursive;   
+}
+
+
+
 .contenedor div{
     padding: 10px;
     font-size: 30px;
@@ -120,7 +126,7 @@ background-color: cadetblue;
     padding:10px;
     position:static   ; /* con "sticky" el elemneto no puede superar al contenedor, por ende si supera las medidas se acercara al borde.
                         se usa para que el menu te siga "header" */
-    
+        
     
 }
 
@@ -163,3 +169,15 @@ background-color: cadetblue;
         left: 60px;
         background-color: rgb(13, 160, 50);
     }
+
+
+    /* Las @rules (at-rules) en CSS son instrucciones especiales para el procesamiento del diseño
+    Se pueden  usar ej:
+     -Para importar otra hoja de estilos: @import url("");
+     -Para las medias queries para definir como se ve la pag en diferentes viewports: @media
+     -Para cargar nuevas tipografias: @font-face { font-family:"font"; src: url("") format("")} 
+     */
+
+
+
+ 

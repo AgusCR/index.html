@@ -23,7 +23,7 @@
                 <a href="#"><img src="/Imagenes/Honda CXR logo.ico" alt="" height="50px" width="100px"></a>
             </div>
             
-        
+         
         </div>
         
    
@@ -83,7 +83,51 @@
         </div>
      
 
+        <div class="caja1">
 
+        </div>
+            <!--Formulario-->
+            <form action="/Pagina/noExiste"> <!--Esta pagina no existe por eso no envia a ningun lugar los datos -->
+            <!--Botones de Radio, uso de label (para poder marcar en el texto), agrupar botones para seleccionar solo uno)-->
+                <!--Uso de la propiedad "Value" para que la pagina sepa el valor de esa informacion-->
+                <label for="Exterior">
+                    <input type="radio" id="exterior" value="exterior" name="interior-exterior">Exterior
+                </label>    
+                
+                <label for="Interior">
+                    <input type="radio" id="interior" valuer="interior" name="interior-exterior"> Interior
+                </label>
+                <br>
+            <!--CHeckbox/Casillas de verificacion-->
+                    <!--"checked" lo que hace es marcar por defecto esa checkbox(Se puede usar en cualquier imput)-->
+                    <label for="amargado">
+                        <input type="checkbox" id="amargado" name="personalidad" checked>Amargado
+                    </label>
+                   <br>
+                    <label for="boton">
+                        <input type="checkbox" id="boton" name="personalidad">Botón
+                    </label>
+                    <br>
+                    <label for="energetico">
+                        <input type="checkbox" id="energetico" name="personalidad">Energetico</label>
+            <br>
+                    
+            <!--Casilla de comentarios, boton "Enviar", uso de la propiedad "placeholder" para indicar lo que se debe llenar,
+                    y la porpiedad "required" para que no se envie el formulario hasta haber completado el casillero. -->
+            
+                <input type="text" placeholder="Nombre" required name="datos">
+                <input type="password" placeholder="Contraseña" required name="datos">
+                <br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar todo</button> 
+                <input type="range" min="0" max="5" step="1"> 
+                <input type="tel" maxlength="9">
+                <input type="file" accept="audio"> <!--indicamos con "accept" los tipos de archivos que puede recibir-->
+                <input type="text" value="nombre de usuario" readonly>
+
+            </form>
+       
+             
 
 </body>
 </html>

@@ -1,7 +1,12 @@
 body{
-    font-family: 'Skranji', cursive;   
-}
+    font-family: 'Skranji', cursive; 
+      /* background-repeat: no-repeat; /*Esta propiedad lo que hace es que si el contenedor es mas grande que la imagen, 
+      está no se va a repetir.
+      el  background-size: auto contain cover; modifica el tamaño del fondo. 
 
+      */
+   
+    }
 
 
 .contenedor div{
@@ -74,6 +79,7 @@ background-color: cadetblue;
         
 }
 
+
 .padre{
     border: 5px solid black; /* se pueden agregar en los valres de solid, dashed, dotted*/
     background-color: rgb(82, 60, 19);
@@ -87,6 +93,7 @@ background-color: cadetblue;
     border-radius: 50%;
     box-shadow: inset 12px 10px 30px 20px red; /*los valores son: (posicion en x, poscion en y, difuminado, espaciado y color. 
                                             Si queremos que la sombra sea interion agregamos el inset delante de todo.*/
+   
 }
 .hijo{
     border: 5px solid black;
@@ -140,10 +147,18 @@ background-color: cadetblue;
     margin: 10px;
 
 }
-
-    .g{
+.g{
         position: static;
+}
+
+.caja1{
+        margin: 25px;
+        height: 500px;
+        width:400px;
+        background-color: salmon;
+        border-top: 5px solid red ;
     }
+
 .ok1{
 
         width: 200px;
@@ -179,5 +194,3 @@ background-color: cadetblue;
      */
 
 
-
- 
